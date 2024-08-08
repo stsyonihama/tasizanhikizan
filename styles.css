@@ -52,8 +52,8 @@ body {
 
 #menu button {
     display: block;
-    padding: 10px 20px;
-    font-size: 14px;
+    padding: 0.625rem 1.25rem;
+    font-size: 0.875em;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -71,27 +71,27 @@ body {
 #quiz {
     display: none;
     width: 100%;
-    max-width: 600px;
-    padding: 20px;
+    max-width: 37.5rem;
+    padding: 1.25rem;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1);
 }
 
 #quiz h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 1.5em;
+    margin-bottom: 1.25rem;
 }
 
 #quiz p {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 1.125em;
+    margin-bottom: 0.625rem;
 }
 
 #quiz input {
-    font-size: 18px;
-    padding: 5px;
-    margin-bottom: 20px;
+    font-size: 1.125em;
+    padding: 0.3125rem;
+    margin-bottom: 1.25rem;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -101,8 +101,8 @@ body {
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 0.625rem 1.25rem;
+    font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -111,10 +111,10 @@ body {
     background-color: #45a049;
 }
 #quiz #result {
-    font-size: 32px;
+    font-size: 2em;
     font-weight: bold;
     color: #ff0000;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     animation: pulse 1s ease-in-out;
 }
 
