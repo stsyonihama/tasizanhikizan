@@ -148,3 +148,14 @@ body {
         transform: scale(1);
     }
 }
+@media (max-width: 767px) {
+  /* スマートフォン向けのスタイル */
+  button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+  
+  .question-container {
+    font-size: 18px;
+  }
+}
