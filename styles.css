@@ -70,6 +70,9 @@ body {
 #quiz p {
     font-size: 1.125em;
     margin-bottom: 0.625rem;
+    white-space: nowrap; /* 改行を禁止 */
+    overflow: hidden; /* 超過分を非表示 */
+    text-overflow: ellipsis; /* 超過分は省略記号で表示 */
 }
 
 #quiz input {
