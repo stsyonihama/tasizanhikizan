@@ -14,8 +14,8 @@ body {
 .container {
     display: flex;
     flex-direction: column; /* 縦方向に配置 */
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     background-color: white;
     box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1);
     border-radius: 10px;
