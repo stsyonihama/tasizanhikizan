@@ -121,15 +121,3 @@ body {
     margin-top: 20px;
     animation: pulse 1s ease-in-out;
 }
-
-@media (max-width: 767px) {
-  /* スマートフォン向けのスタイル */
-  button {
-    font-size: 16px;
-    padding: 10px 16px;
-  }
-  
-  .question-container {
-    font-size: 20px;
-  }
-}
