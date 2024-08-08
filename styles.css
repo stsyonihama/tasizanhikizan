@@ -15,7 +15,7 @@ body {
     width: 80%;
     height: 80%;
     background-color: white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
 }
@@ -27,7 +27,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem;
     width: 25%;
     box-sizing: border-box;
     overflow-y: auto;
@@ -37,16 +37,15 @@ body {
 .right-column {
     flex: 3;
     background-color: white;
-    padding: 20px;
+    padding: 1.25rem;
     box-sizing: border-box;
     overflow-y: auto;
 }
 
-
 #menu {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-gap: 0.625rem;
     width: 100%;
 }
 
