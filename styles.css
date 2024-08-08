@@ -121,3 +121,60 @@ body {
     margin-top: 20px;
     animation: pulse 1s ease-in-out;
 }
+@media (max-width: 767px) {
+  /* スマートフォン向けのスタイル */
+  body {
+    flex-direction: column;
+  }
+
+  .container {
+    width: 100%;
+    height: auto;
+  }
+
+  #menu {
+    order: 1; /* メニューを上に配置 */
+    background-color: #f1f1f1;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5rem;
+  }
+
+  #menu button {
+    font-size: 0.9em;
+    padding: 0.5rem 1rem;
+  }
+
+  #quiz {
+    order: 2; /* クイズを下に配置 */
+    flex-grow: 1;
+    max-width: none;
+    padding: 1rem;
+  }
+
+  #quiz h2 {
+    font-size: 1.25em;
+    margin-bottom: 1rem;
+  }
+
+  #quiz p {
+    font-size: 1em;
+    margin-bottom: 0.5rem;
+  }
+
+  #quiz input {
+    font-size: 1em;
+    padding: 0.25rem;
+    margin-bottom: 1rem;
+  }
+
+  #quiz button {
+    font-size: 0.9em;
+    padding: 0.5rem 1rem;
+  }
+
+  .question-container {
+    font-size: 1.1em;
+  }
+}
